@@ -32,3 +32,11 @@ THe Login Process is then complete.
 
 * Please refer to te caveat in Point 4, where it may not be the case the KeyCloak sends a POST Request with the Auth Token to the Redirect URL but instead responds to the Application that initiated the Login Process (which would be Nexus). The issue here is to determine where KeyCloak sends the information to!
   * This information be found within the *Fine Grain SAML Endpoint Configuration* section of your KeyCloak Client. Please check if this is true!
+  * If this is true, then we will need to restructure the way that this process is set up. 
+
+
+## Resources 
+
+* [Secure your Flask application with Keycloak and SAML 2.0](https://xwf.medium.com/secure-flask-application-with-keycloak-and-saml-2-0-3c1986f47cd)
+* [Tech Review Whiteboard](https://jamboard.google.com/d/1f84aebGrvZnxSoeiZDprQs5bjHZmjYCIojCXgP30QxA/viewer?f=3)
+* [KeyCloak SSO Protocols - SAML](https://www.keycloak.org/docs/latest/server_admin/#_saml)
