@@ -1,6 +1,6 @@
-# /maintenance/delete
+# /gazette/delete
 
-## Deletes an entry in the maintenance database
+## Deletes an entry in the gazette database
 For an existing entry in the database, sets its "valid" field to false.
 <br><br>
 
@@ -11,13 +11,13 @@ For an existing entry in the database, sets its "valid" field to false.
     data = json.dumps({
         "_id" : 0
     })
-    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/maintenance/delete, data=data)
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/gazette/delete, data=data)
     print(resp.text)
 
 ### Request Data Parameters
 
 **_id** (*str*) <br>
-    The ID of the entry in the maintenance database.
+    The ID of the entry in the gazette database.
 
 <hr> <br>
 

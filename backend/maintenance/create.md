@@ -14,8 +14,8 @@ Adds an entry into the maintenance MongoDB database, where entries represents in
         "author" : "Rashed Rifat",
         "affected_servers" : ["Shadow", "Nexus", "Ark"],
         "description" : "Routine maintenance and performance tuning"
-    }
-    resp = requests.post("http://127.0.0.1:5000/maintenance/create, data=data)
+    })
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/maintenance/create, data=data)
     print(resp.text)
 
 ### Request Data Parameters

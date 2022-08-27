@@ -8,7 +8,7 @@ Returns a string of all maintenance entries in the database that have not yet oc
 
     import requests
 
-    resp = requests.get("http://127.0.0.1:5000/maintenance/read)
+    resp = requests.get("https://whale-app-5ml2e.ondigitalocean.app/maintenance/read)
     print(resp.text)
 
 <hr> <br>

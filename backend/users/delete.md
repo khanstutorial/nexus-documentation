@@ -1,7 +1,7 @@
-# /maintenance/delete
+# /users/delete
 
-## Deletes an entry in the maintenance database
-For an existing entry in the database, sets its "valid" field to false.
+## Deletes an entry in the users database
+From its _id value, deletes that entry in the database.
 <br><br>
 
 ## Request
@@ -10,14 +10,14 @@ For an existing entry in the database, sets its "valid" field to false.
 
     data = json.dumps({
         "_id" : 0
-    })
-    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/maintenance/delete, data=data)
+    }
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/users/delete, data=data)
     print(resp.text)
 
 ### Request Data Parameters
 
 **_id** (*str*) <br>
-    The ID of the entry in the maintenance database.
+    The ID of the entry in the users database.
 
 <hr> <br>
 

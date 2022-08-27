@@ -15,8 +15,8 @@ Updates an existing maintenance entry with new information. Note that the "valid
         "author" : "Rashed Rifat",
         "affected_servers" : ["Shadow", "Nexus", "Ark"],
         "description" : "Routine maintenance and performance tuning"
-    }
-    resp = requests.post("http://127.0.0.1:5000/maintenance/update, data=data)
+    })
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/maintenance/update, data=data)
     print(resp.text)
 
 NOTE: All of the fields above DO NOT NEED TO BE INCLUDED for the request to succeed! Only include the fields you want to change.
