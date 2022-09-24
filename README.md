@@ -34,14 +34,41 @@ By clicking a section on the side navigation bar, a dropdown of the different fe
 
 Some sample sections could be Student Administration, where you are able to block users, view blocked users, access the KT Admin Portal, etc.
 
-## MVP Features
+## Roadmap
+
+### MVP Features -Anticipated Release Date: 01/01/2023
 
 * Sign into Nexus via Keycloak SSO
+  * ODIC Protocol
 * Sign out of Nexus
-* Navigation Bar dropdowns to access static pages
-* Access to features such as redirecting a class, etc
+  * IdP Logout
+* Navigation Bar dropdowns to access the following static pages
+  * Due Date: October 31st, 2022
+  * **Section 2 (Guides and Tutorials** 
+    * Instructor Resources
+    * Making Sales
+    * Importing Students
+    * Viewing Classrooms/Live Dasboard
+    * Error Handbook
+  * **Section 4 - Meeting Rooms**
+    * Redirecting Classrooms 
+    * Communication 
+    * Live Dashboard
+    * Class Directory
+    * KT Learning Access Logs
+* Access to the following features (currently active on SquareSpace, will need to be imported to Nexus)
+  * Due Date: December 15th, 2022
+  * **Section 3 - Classroom Administration**
+    * Redirecting Classrooms 
+    * Communication 
+    * Live Dashboard
+    * Class Directory
+    * KT Learning Access Logs
+    * Block IP Address 
+    * Server Status
+    * Scheduled Maintenance 
 
-### Technical Caveats
+**Technical Caveats**
 
 At the basic level, we will need the following to develop our MVP features
 
@@ -49,19 +76,7 @@ At the basic level, we will need the following to develop our MVP features
 * Fully authenticated back-end server (using professional authentication techniques)
 * Database (MongoDB) to store internal data, Redux for caching purposes
 
-## Features to Import
-
-* Checking that all of our servers are currently operational
-* Redirecting classes - both viewing and adding new redirects
-* Blocking IP Addresses - viewing and blocking new ip addresses
-* Viewing all Zoom URLS (the Keycloak User Directory)
-* Viewing the past 300 students who entered into what class
-* The Error Handbook (static page)
-* How to Log Into Keycloak (static page)
-* Accessing the KT Admin Portal (requires a static link with Nipa's Application)
-* ...and more!
-
-## Planned Features
+### Future Features 
 
 * Internal Forum - where employees can make posts and and establish topics
 * Internal Communication Platform
