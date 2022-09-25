@@ -44,29 +44,32 @@ Some sample sections could be Student Administration, where you are able to bloc
   * IdP Logout
 * Navigation Bar dropdowns to access the following static pages
   * Due Date: October 31st, 2022
-  * **Section 2 (Guides and Tutorials** 
+  * **Section 2 (Guides and Tutorials**
     * Instructor Resources
     * Making Sales
     * Importing Students
     * Viewing Classrooms/Live Dasboard
     * Error Handbook
   * **Section 4 - Meeting Rooms**
-    * Redirecting Classrooms 
-    * Communication 
-    * Live Dashboard
-    * Class Directory
-    * KT Learning Access Logs
+    * Meeting Rooms
+    * Management
+    * Sales
+    * Enrollments
+    * Monthly Staff Meetings
+    * Curriculum
+    * Data
+    * Marketing
 * Access to the following features (currently active on SquareSpace, will need to be imported to Nexus)
   * Due Date: December 15th, 2022
   * **Section 3 - Classroom Administration**
-    * Redirecting Classrooms 
-    * Communication 
+    * Redirecting Classrooms
+    * Communication
     * Live Dashboard
     * Class Directory
     * KT Learning Access Logs
-    * Block IP Address 
+    * Block IP Address
     * Server Status
-    * Scheduled Maintenance 
+    * Scheduled Maintenance
 
 **Technical Caveats**
 
@@ -76,7 +79,7 @@ At the basic level, we will need the following to develop our MVP features
 * Fully authenticated back-end server (using professional authentication techniques)
 * Database (MongoDB) to store internal data, Redux for caching purposes
 
-### Future Features 
+### Future Features
 
 * Internal Forum - where employees can make posts and and establish topics
 * Internal Communication Platform
