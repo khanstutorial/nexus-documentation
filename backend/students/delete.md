@@ -1,6 +1,6 @@
-# /users/delete
+# /students/delete
 
-## Deletes an entry in the users database
+## Deletes an entry in the students database
 From its _id value, deletes that entry in the database.
 <br><br>
 
@@ -11,13 +11,13 @@ From its _id value, deletes that entry in the database.
     data = json.dumps({
         "_id" : 0
     }
-    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/users/delete, data=data)
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/students/delete, data=data)
     print(resp.text)
 
 ### Request Data Parameters
 
 **_id** (*str*) <br>
-    The ID of the entry in the users database.
+    The ID of the entry in the students database.
 
 <hr> <br>
 

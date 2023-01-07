@@ -1,7 +1,7 @@
-# /users/create
+# /students/create
 
-## Creates an entry in the users database
-Adds an entry into the users MongoDB database, where entries represents information about Shadow users.
+## Creates an entry in the students database
+Adds an entry into the students MongoDB database, where entries represents information about Shadow students.
 <br><br>
 
 ## Request
@@ -15,7 +15,7 @@ Adds an entry into the users MongoDB database, where entries represents informat
             "Tech Team Member"
         ]
     })
-    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/users/create, data=data)
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/students/create, data=data)
     print(resp.text)
 
 ### Request Data Parameters
@@ -40,6 +40,6 @@ Adds an entry into the users MongoDB database, where entries represents informat
         "roles": [
             "Tech Team Member"
         ]
-    } has been inserted into the users collection in the shadow database.
+    } has been inserted into the students collection in the shadow database.
 
 If a failure has occured, this message will not be shown. Instead a 500 error will be returned displaying the reason for the failure.

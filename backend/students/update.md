@@ -1,7 +1,7 @@
-# /users/update
+# /students/update
 
-## Updates an existing users entry
-Updates an existing users entry with new information.
+## Updates an existing students entry
+Updates an existing students entry with new information.
 <br><br>
 
 ## Request
@@ -16,7 +16,7 @@ Updates an existing users entry with new information.
             "Tech Team Member"
         ]
     })
-    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/users/update, data=data)
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/students/update, data=data)
     print(resp.text)
 
 NOTE: Only "_id" needs to be in data. All of the fields above DO NOT NEED TO BE INCLUDED for the request to succeed! Only include the fields you want to change.
@@ -24,7 +24,7 @@ NOTE: Only "_id" needs to be in data. All of the fields above DO NOT NEED TO BE 
 ### Request Data Parameters
 
 **_id** (*int*) - REQUIRED FIELD <br>
-    The ID of the entry in the users database. The reason for the beginning underscore is because that is MongoDB's default ID field.
+    The ID of the entry in the students database. The reason for the beginning underscore is because that is MongoDB's default ID field.
 
 **name** (*str*) <br>
     The new name of the user.

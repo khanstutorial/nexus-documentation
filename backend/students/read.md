@@ -1,6 +1,6 @@
-# /users/read
+# /students/read
 
-## Returns all users
+## Returns all students
 Returns a list of JSONs sorted by name, where each JSON is data about a student's login activity.
 <br><br>
 
@@ -8,7 +8,7 @@ Returns a list of JSONs sorted by name, where each JSON is data about a student'
 
     import requests
 
-    resp = requests.get("https://whale-app-5ml2e.ondigitalocean.app/users/read)
+    resp = requests.get("https://whale-app-5ml2e.ondigitalocean.app/students/read)
     print(resp.text)
 
 <hr> <br>
