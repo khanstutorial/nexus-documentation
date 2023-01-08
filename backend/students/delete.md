@@ -10,7 +10,7 @@ From its _id value, deletes that entry in the database.
 
     data = json.dumps({
         "_id" : 0
-    }
+    })
     resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/students/delete, data=data)
     print(resp.text)
 

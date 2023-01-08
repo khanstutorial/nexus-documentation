@@ -15,7 +15,7 @@ Updates an existing classes entry with new information.
         "zoom_url" : "https://khanstutorial.zoom.us/j/86050581704?pwd=dmYzUWZ4dmx6b3crWDB4NnduR0M2UT09",
         "department" : "Common-Core",
         "num_students" : 10
-    }
+    })
     resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/classes/update, data=data)
     print(resp.text)
 

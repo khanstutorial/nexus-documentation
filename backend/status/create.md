@@ -8,7 +8,7 @@ Adds a timestamp and 0/1 key-value pair to the status field in all entries in th
 
     import requests, json
 
-    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/status/create, data=data)
+    resp = requests.post("https://whale-app-5ml2e.ondigitalocean.app/status/create)
     print(resp.text)
 
 <hr> <br>
